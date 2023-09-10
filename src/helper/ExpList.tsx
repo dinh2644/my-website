@@ -1,6 +1,5 @@
 import Bank from "../assets/img/bank.png";
 import CodePath from "../assets/img/codepath_pic.jpg";
-import Spinner from "../assets/img/spinner.gif";
 
 export const ExpList = [
   {
@@ -25,12 +24,5 @@ export const ExpList = [
       "Displaying real-world data and enabling conditional rendering.",
       "Implementing navigation with React Router and connecting to a database, enhancing user experience through polishing.",
     ],
-  },
-  {
-    name: "To Be Added",
-    img: Spinner,
-    role: "",
-    period: "",
-    desc: [],
   },
 ];

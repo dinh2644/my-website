@@ -52,12 +52,7 @@ const Experience = () => {
               >
                 CodePath
               </div>
-              <div
-                className={`tabHeader ${activeTab === 2 ? "active" : ""}`}
-                onClick={(e) => handeTabClick(2, e)}
-              >
-                TO BE ADDED
-              </div>
+              {/*For future tabs, insert here*/}
               <div
                 className="tab-indicator"
                 style={{ top: `calc(1px + ${tabIndicator * 50}px)` }}
