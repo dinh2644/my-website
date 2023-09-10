@@ -1,4 +1,5 @@
 import { ExpList } from "../helper/ExpList";
+import "animate.css";
 
 interface Props {
   activeTab: number;
