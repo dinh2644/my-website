@@ -15,10 +15,7 @@ Before you begin, ensure you have the following installed on your system:
 - [Node.js](https://nodejs.org/) (v14 or higher)
 - [Yarn](https://yarnpkg.com/) (v1 or v2)
 
-### Installation
-
-1. Clone this repository to your local machine:
-
+### Setup
    ```bash
    git clone https://github.com/your-username/your-portfolio-website.git
 
