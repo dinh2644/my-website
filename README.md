@@ -21,7 +21,7 @@ Before you begin, ensure you have the following installed on your system:
    ```
 ### Go to project directory
    ```bash
-   cd your-portfolio-website
+   cd my-website
    ```
 ### Install dependencies using yarn
    ```bash
