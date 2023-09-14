@@ -18,14 +18,19 @@ Before you begin, ensure you have the following installed on your system:
 ### Setup
    ```bash
    git clone https://github.com/your-username/your-portfolio-website.git
-
+   ```
+### Go to project directory
+   ```bash
    cd your-portfolio-website
-
-   Install the project dependencies using Yarn:
+   ```
+### Install dependencies using yarn
+   ```bash
    yarn install
-
-   To start a local development server and view your portfolio website, run the following command:
+   ```
+###  To start a local development server and view your portfolio website, run the following command:
+   ```bash
    yarn dev
+   ```
 
 
 
