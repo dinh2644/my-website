@@ -17,7 +17,7 @@ Before you begin, ensure you have the following installed on your system:
 
 ### Setup
    ```bash
-   git clone https://github.com/your-username/your-portfolio-website.git
+   git clone https://github.com/dinh2644/my-website.git
    ```
 ### Go to project directory
    ```bash
