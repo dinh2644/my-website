@@ -4,19 +4,6 @@ https://dinh2644.github.io/my-website/
 
 This is the repository for my personal portfolio website, built with Vite, React, TypeScript, and Yarn.
 
-![Portfolio Website Screenshot](screenshot.png)
-
-## Table of Contents
-
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Development](#development)
-- [Production Build](#production-build)
-- [Deployment](#deployment)
-- [Features](#features)
-- [License](#license)
-
 ## Getting Started
 
 Follow these steps to set up and run the project for development on your local machine.
