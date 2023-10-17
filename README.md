@@ -27,10 +27,6 @@ Before you begin, ensure you have the following installed on your system:
    ```bash
    yarn install
    ```
-+
-   ```bash
-   yarn add --save-dev @types/react@latest @types/react-dom@latest
-   ```
 ###  To start a local development server and view your portfolio website, run the following command:
    ```bash
    yarn dev
