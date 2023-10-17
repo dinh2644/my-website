@@ -20,9 +20,10 @@ export const ExpList = [
     role: "CodePath Intermediate Web Development | WEB102",
     period: "Sep 2023 - Nov 2023",
     desc: [
-      "Creating an interactive frontend using React, handling complex user input. (React)",
-      "Displaying real-world data and enabling conditional rendering.",
-      "Implementing navigation with React Router and connecting to a database, enhancing user experience through polishing.",
+      "Creating an interactive frontend using React, handling complex user input",
+      "Worked with real-world data, fetching, displaying, and posting from various REST APIs",
+      "Implementing navigation with React Router and stored data via Supabase",
+      
     ],
   },
 ];

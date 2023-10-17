@@ -50,7 +50,7 @@ const Experience = () => {
                 className={`tabHeader ${activeTab === 1 ? "active" : ""}`}
                 onClick={(e) => handeTabClick(1, e)}
               >
-                CodePath
+                CodePath Fellow
               </div>
               {/*For future tabs, insert here*/}
               <div
