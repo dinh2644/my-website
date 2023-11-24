@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import TabContent from "./TabContent";
+import { ExpTab } from "../helper/ExpTab";
 
 const Experience = () => {
   const [activeTab, setActiveTab] = useState(0);
@@ -40,19 +41,16 @@ const Experience = () => {
               data-aos="fade-up"
               data-aos-duration="2000"
             >
-              <div
-                className={`tabHeader ${activeTab === 0 ? "active" : ""}`}
-                onClick={(e) => handeTabClick(0, e)}
-              >
-                U.S. TREASURY
-              </div>
-              <div
-                className={`tabHeader ${activeTab === 1 ? "active" : ""}`}
-                onClick={(e) => handeTabClick(1, e)}
-              >
-                CodePath Fellow
-              </div>
-              {/*For future tabs, insert here*/}
+              {ExpTab.map((item, index) => (
+                <div
+                  key={index}
+                  className={`tabHeader ${activeTab === index ? "active" : ""}`}
+                  onClick={(e) => handeTabClick(index, e)}
+                >
+                  {item.name}
+                </div>
+              ))}
+
               <div
                 className="tab-indicator"
                 style={{ top: `calc(1px + ${tabIndicator * 50}px)` }}

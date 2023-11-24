@@ -1,5 +1,6 @@
 import Bank from "../assets/img/bank.png";
 import CodePath from "../assets/img/codepath_pic.jpg";
+import Lyft from "../assets/img/lyft.png";
 
 export const ExpList = [
   {
@@ -20,10 +21,20 @@ export const ExpList = [
     role: "CodePath Intermediate Web Development | WEB102",
     period: "Sep 2023 - Nov 2023",
     desc: [
-      "Creating an interactive frontend using React, handling complex user input",
-      "Worked with real-world data, fetching, displaying, and posting from various REST APIs",
-      "Implementing navigation with React Router and stored data via Supabase",
-      
+      "Crafted 5 mini React projects centered around reusable components, user input handling, RESTful APIs integration, React routing, and database management",
+      "Developed a capstone project that prioritized accessibility and adhered to fundamental web design principles while implementing seamless CRUD operations using Supabase",
+    ],
+  },
+  {
+    name: "Forage | Lyft",
+    img: Lyft,
+    role: "Lyft Back-End Engineering Job Simulation | Certificate",
+    period: "Issued Nov 2023",
+    desc: [
+      "Completed the Back-End Engineering job simulation, taking over development of an unfinished project for the Lyft Rentals team",
+      "Drafted a UML class diagram representing a new reorganized architecture",
+      "Refactored a messy codebase inherited from another team to accurately reflect my new design",
+      "Implemented unit tests and added new functionality using test-driven development",
     ],
   },
 ];

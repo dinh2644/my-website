@@ -71,6 +71,23 @@ const Cards = () => {
             </div>
           </div>
         </div>
+
+        <div
+          className="col-xxl-4 col-xl-6 col-lg-6 col-md-6 col-sm-6 d-flex justify-content-center"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <div className="card PC6">
+            <div className="img-description">
+              <h2>CodeHub</h2>
+              <p>
+                An online hub to ask, discuss, and get feedback anything
+                software related. It will primarily be a format for users to get
+                help with code/programming questions.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );

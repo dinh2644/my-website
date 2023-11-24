@@ -314,6 +314,9 @@ summary {
 .PC5 {
 	background: url('./assets/img/spellchecker-pic.png') center / cover !important;
 }
+.PC6 {
+	background: url('./assets/img/codehub.png') center / cover !important;
+}
 
 .card .img-description {
 	padding-top: 50px !important;
